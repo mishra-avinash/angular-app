@@ -6,12 +6,14 @@ import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {NoConflictStyleCompatibilityMode} from '@angular/material';
+import {DragDropComponent} from './drag-drop.component';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DragDropComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +21,8 @@ import { AppComponent } from './app.component';
     HttpModule,
     MaterialModule,
     BrowserAnimationsModule,
-    NoConflictStyleCompatibilityMode
+    NoConflictStyleCompatibilityMode,
+    // DragDropComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
