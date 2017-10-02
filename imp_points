@@ -7,3 +7,6 @@ https://alligator.io/angular/angular-material-2/
 ## for drag and drop 
 npm install angular2-file-drop
 
+## install bulma
+npm install bulma
+

@@ -1,5 +1,19 @@
-.info img{
+.image img{
 
   height: 70px;
   width: 70px;
+}
+.toolbar{
+  height: 100px;
+}
+div.drag-drop{
+  position:absolute;
+  left: -300px;
+  top: 30px;
+}
+
+mat-card{
+  position: absolute;
+  /*bottom:-100px;*/
+  right: 30px;
 }
