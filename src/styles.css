@@ -2,9 +2,15 @@
 @import '~https://fonts.googleapis.com/icon?family=Material+Icons';
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 /*@import  './theme.scss';*/
+
+@font-face {
+  font-family: Audi;
+  src: url(./assets/font/AudiTypeExtended-Normal.ttf);
+}
+
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: Audi sans-serif!important;
 }
 
 mat-card {

@@ -1,5 +1,30 @@
-.info img{
-
-  height: 70px;
-  width: 70px;
+@font-face {
+  font-family: AudiBold;
+  src: url(../assets/font/AudiType-ExtendedBold.ttf);
 }
+div.heading{
+  display: inline-block;
+  color: white;
+  padding: 0% 10%;
+}
+.image img{
+
+  height: 70%;
+  width: 70%;
+}
+.toolbar{
+  height: 100%;
+}
+div.drag-drop{
+  position:absolute;
+  left: -15%;
+  top: 0%;
+}
+
+mat-card{
+  position: absolute;
+  /*bottom:-100px;*/
+  right: 10%;
+}
+
+

@@ -1,33 +1,37 @@
+<nav class="navbar navbar-dark navbar-custom ">
+<a class="navbar-brand" href="#">
+  <img src="../assets/images/Rings_bl-RGB.png" width="150" height="60" class="d-inline-block align-top" alt="">
+</a>
 
+<div class="heading"  >
+  <font size="10">IT Innovation </font>
+</div>
 <div>
-  <mat-toolbar color="primary">
-    <span><mat-icon>mood</mat-icon></span>
-
-    <span class="info">
-      <img src="../assets/images/Rings_wh-RGB.png">
-    </span>
-
-    <button mat-icon-button [mat-menu-trigger-for]="menu">
+  <mat-toolbar class="navbar-custom" >
+    <button mat-icon-button [mat-menu-trigger-for]="menu" style="left: 95%; color: white"  >
       <mat-icon>more_vert</mat-icon>
     </button>
   </mat-toolbar>
-  <mat-menu x-position="before" #menu="mdMenu">
-    <button mat-menu-item>Option 1</button>
+  <mat-menu x-position="before" #menu="mdMenu" >
+    <button mat-menu-item >Option 1</button>
     <button mat-menu-item>Option 2</button>
   </mat-menu>
 
-  <mat-card>
-    <button mat-button >All</button>
-    <button mat-raised-button>Of</button>
-    <button mat-raised-button color="primary">The</button>
-    <button mat-raised-button color="accent">Buttons</button>
-  </mat-card>
+</div>
+</nav>
+
+<div class="drag-drop" >
+  <drag-drop> </drag-drop>
+</div>
+
+<!--<div class="upload">-->
+  <!--<upload-component></upload-component>-->
+<!--</div>-->
+<div>
 
   <span class="done">
-    <button mat-fab>
+    <button mat-fab >
       <mat-icon>check circle</mat-icon>
     </button>
   </span>
 </div>
-
-

@@ -2,18 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {NoConflictStyleCompatibilityMode} from '@angular/material';
-import {DragDropComponent} from './drag-drop.component';
+import { NgUploaderModule } from 'ngx-uploader';
+import {FileSelectDirective, FileDropDirective } from 'ng2-file-upload/ng2-file-upload';
 
 import { AppComponent } from './app.component';
+import {DragDropComponent} from './drag-drop.component';
+import {UploadComponent} from './upload.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DragDropComponent
+    DragDropComponent,
+    UploadComponent,
+    FileSelectDirective,
+    FileDropDirective
   ],
   imports: [
     BrowserModule,
@@ -22,7 +29,7 @@ import { AppComponent } from './app.component';
     MaterialModule,
     BrowserAnimationsModule,
     NoConflictStyleCompatibilityMode,
-    // DragDropComponent
+    NgUploaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

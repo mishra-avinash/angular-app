@@ -5,4 +5,14 @@ https://alligator.io/angular/angular-material-2/
 ## use customizable theme
 
 ## for drag and drop
+npm install ngx-uploader --save
 
+## install bulma
+npm install bulma
+
+## using bootstrap
+npm install --save bootstrap@4.0.0-beta
+
+## using another file uploader here
+https://github.com/valor-software/ng2-file-upload
+npm i ng2-file-upload --save
