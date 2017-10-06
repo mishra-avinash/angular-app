@@ -29,3 +29,5 @@ mat-toolbar-row {
   right: 20px;
   color: white;
 }
+
+.top-buffer { margin-top:50px; }

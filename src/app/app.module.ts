@@ -13,14 +13,15 @@ import {FileSelectDirective, FileDropDirective } from 'ng2-file-upload/ng2-file-
 import { AppComponent } from './app.component';
 import {DragDropComponent} from './drag-drop.component';
 import {UploadComponent} from './upload.component';
-
+import {Ng2UploaderComponent} from './ng2-uploader.component';
 @NgModule({
   declarations: [
     AppComponent,
     DragDropComponent,
     UploadComponent,
     FileSelectDirective,
-    FileDropDirective
+    FileDropDirective,
+    Ng2UploaderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+
+.my-drop-zone { border: dotted 3px whitesmoke;
+  border-radius: 15px;
+  box-shadow: 1px 2px 10px;
+  background-color: ghostwhite;
+                width: 80%;
+                height: 90%;
+text-shadow: whitesmoke}
+
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+.another-file-over-class { border: dotted 3px green; }
+html, body { height: 100%; }
+
+
+

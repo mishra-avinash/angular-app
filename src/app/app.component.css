@@ -28,3 +28,10 @@ mat-card{
 }
 
 
+.btn-info.active {
+  background-color: white;
+}
+
+.btn_white.active {
+  background-color: white;
+}
